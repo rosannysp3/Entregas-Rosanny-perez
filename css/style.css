@@ -132,6 +132,7 @@
   margin-top: 600px;
 }
 
+/* pc */
 @media screen and (min-width: 1024px) {
   body {
     font-family: Arial, sans-serif;
@@ -146,7 +147,12 @@
   }
 
   .titular {
-    display: none;
+    display: flex;
+    justify-content: center;
+    color: #f061c5;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-size: 80pt;
   }
 
   .lineas-despliegue {
@@ -163,15 +169,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 600px
-     }
-
-
-  li {
-    padding: 0.5vw;
   }
 
+  li {
+    padding: 1vw;
+  }
 
+ .nav-bottom {    
+margin-top: 550px;
+}
+
+}
+/* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     font-family: Arial, sans-serif;
@@ -191,7 +200,7 @@
     color: #f061c5;
     font-family: "Love Ya Like A Sister", cursive;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 40pt;
   }
  
 
@@ -216,7 +225,7 @@
   }
 
 }
-
+/* telefono */
 @media screen and (max-width: 767px) {
   body {
     font-family: Arial, sans-serif;
@@ -229,7 +238,13 @@
     justify-content: end;
   }
   .titular {
-    display: none;
+    display: flex;
+    justify-content: center;
+    color: #f061c5;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-size: 10pt;
+    font-size: 20pt;
   }
 
   .lineas-despliegue {

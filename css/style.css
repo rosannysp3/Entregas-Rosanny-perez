@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-  font-family: Arial, sans-serif;
-  background-image: url("./assets/fondo.solo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-
 .container {
   position: relative;
   padding: 20px;
@@ -85,7 +76,7 @@ body {
   width: 100%;
   height: auto;
   max-width: 300px;
- }
+}
 
 .custom-INICIO {
   background-color: #fd64dc;
@@ -141,21 +132,129 @@ body {
   margin-top: 600px;
 }
 
-@media (max-width: 768px) {
-  .titulo {
-    font-size: 3em;
+@media screen and (min-width: 1024px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("./assets/fondo.solo.jpg");
+    background-size: cover;
+
   }
 
-  .slogan, .slogan2 {
-    font-size: 1.5em;
+  .menu {
+    display: flex;
+    justify-content: end;
   }
 
-  .imagen-superior-derecha, .imagen-superior-izquierda, .imagen-central-izquierda, .imagen-inferior-izquierda {
-    max-width: 200px;
+  .titular {
+    display: none;
   }
 
-  .custom-button {
-    font-size: 14px;
-    padding: 8px 16px;
+  .lineas-despliegue {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    font-size: 24pt;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 600px
+     }
+
+
+  li {
+    padding: 0.5vw;
+  }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("./assets/fondo.solo.jpg");
+    background-size: cover;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: end;
+  }
+
+  
+  .titular {
+    display: flex;
+    justify-content: center;
+    color: #f061c5;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-size: 20pt;
+  }
+ 
+
+  .lineas-despliegue {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4vw;
+    font-size: 16pt;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  li {
+    padding: 1vw;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("./assets/fondo.solo.jpg");
+    background-size: cover;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: end;
+  }
+  .titular {
+    display: none;
+  }
+
+  .lineas-despliegue {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4vw;
+    font-size: 14pt;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+  }
+
+  li {
+    margin: 2vw;
+    background-color: rgba(240, 97, 197, 0.3);
+  }
+  
+  .heladoslista {
+    background-color: white;
+    height: 50vh;
   }
 }

@@ -1,0 +1,141 @@
+@media screen and (min-width: 1024px) {
+    .menu {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .titular {
+      display: flex;
+      justify-content: center;
+      color: $primary-color;
+      font-family: $font-family-titulo;
+      font-weight: 400;
+      font-size: 80pt;
+    }
+  
+    .lineas-despliegue {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding: 2vw;
+      font-size: 24pt;
+      text-align: center;
+    }
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  
+    li {
+      padding: 1vw;
+    }
+  
+    .nav-bottom {
+      margin-top: 550px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .titular {
+      display: flex;
+      justify-content: center;
+      color: $primary-color;
+      font-family: $font-family-titulo;
+      font-weight: 400;
+      font-size: 40pt;
+    }
+  
+    .lineas-despliegue {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding: 4vw;
+      font-size: 16pt;
+      text-align: center;
+    }
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  
+    li {
+      padding: 1vw;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .menu {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .titular {
+      display: flex;
+      justify-content: center;
+      color: $primary-color;
+      font-family: $font-family-titulo;
+      font-weight: 400;
+      font-size: 20pt;
+    }
+  
+    .lineas-despliegue {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding: 4vw;
+      font-size: 14pt;
+      text-align: center;
+    }
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  
+    li {
+      margin: 2vw;
+      background-color: rgba($primary-color, 0.3);
+    }
+  
+    .heladoslista {
+      background-color: white;
+      height: 50vh;
+    }
+  }
+  
+  .lineas-despliegue {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    font-size: 24pt;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  li {
+    padding: 1vw;
+  }
+
+  .nav-bottom {
+    margin-top: 550px;
+  }
+  

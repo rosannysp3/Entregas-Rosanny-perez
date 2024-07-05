@@ -1,0 +1,36 @@
+.imagen-superior-derecha,
+.imagen-superior-izquierda,
+.imagen-central-izquierda,
+.imagen-inferior-derecha {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.imagen-superior-derecha {
+  top: 0px;
+  right: 0px;
+  max-width: 300px;
+}
+
+.imagen-superior-izquierda {
+  top: -40px;
+  left: -30px;
+  max-width: 200px;
+  transform: rotate(145deg);
+}
+
+.imagen-central-izquierda {
+  top: 110px;
+  left: 0px;
+  transform: translateY(-50%);
+  max-width: 300px;
+  margin-top: 350px;
+}
+
+.imagen-inferior-derecha {
+  bottom: -850px;
+  left: 1300px;
+  max-width: 300px;
+}

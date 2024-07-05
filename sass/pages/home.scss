@@ -1,0 +1,62 @@
+.titulo {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    color: $primary-color;
+    font-family: $font-family-titulo;
+    font-size: 11em;
+    font-weight: 400;
+  }
+  
+  .slogan,
+  .slogan2 {
+    position: absolute;
+    color: $secondary-color;
+    font-family: $font-family-slogan;
+    font-size: 3em;
+    font-weight: 400;
+  }
+  
+  .slogan {
+    top: 400px;
+    left: 400px;
+  }
+  
+  .slogan2 {
+    top: 450px;
+    right: 400px;
+  }
+  
+  .custom-INICIO, .custom-FRUTALES, .custom-CREMOSOS {
+    background-color: #fd64dc;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .custom-INICIO {
+    top: 50%;
+    left: 50%;
+    margin-top: 600px;
+  }
+  
+  .custom-FRUTALES {
+    top: 200%;
+    left: 40%;
+    margin-top: 600px;
+  }
+  
+  .custom-CREMOSOS {
+    top: 200%;
+    left: 60%;
+    margin-top: 600px;
+  }
+  
